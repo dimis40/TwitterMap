@@ -36,7 +36,7 @@ app.configure('production', function () {
 
 app.get('/', routes.index);
 
-app.listen(process.env.PORT || 3000);
+app.listen(3001);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
 
 
@@ -48,10 +48,10 @@ io.configure(function () {
 
 console.log('getting my twitters on');
 
-console.log(nconf.get('twitter_consumer_key'));
-console.log(nconf.get('twitter_consumer_secret'));
-console.log(nconf.get('twitter_access_token'));
-console.log(nconf.get('twitter_access_token_secret'));
+console.log(nconf.get('3BkHVdNy8NsGOQbUWkuA'));
+console.log(nconf.get('ERRaBPabpnNz2fBlMoqBKetKfUO8jTquLGGjB5c'));
+console.log(nconf.get('146704189-UPRZb9yvLvcYq2kYNfKkayKfAs81nmU6B03ugaMc'));
+console.log(nconf.get('ZgHoSs2rLJhEo6IkxI15KZTVrjAJOcqVwAunexLk4'));
 
 var t = new twit({
     consumer_key: nconf.get('twitter_consumer_key'),
