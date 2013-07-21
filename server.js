@@ -54,10 +54,10 @@ console.log(nconf.get('146704189-UPRZb9yvLvcYq2kYNfKkayKfAs81nmU6B03ugaMc'));
 console.log(nconf.get('ZgHoSs2rLJhEo6IkxI15KZTVrjAJOcqVwAunexLk4'));
 
 var t = new twit({
-    consumer_key: nconf.get('twitter_consumer_key'),
-    consumer_secret: nconf.get('twitter_consumer_secret'),
-    access_token: nconf.get('twitter_access_token'),
-    access_token_secret: nconf.get('twitter_access_token_secret')
+    consumer_key: nconf.get('3BkHVdNy8NsGOQbUWkuA'),
+    consumer_secret: nconf.get('ERRaBPabpnNz2fBlMoqBKetKfUO8jTquLGGjB5c'),
+    access_token: nconf.get('146704189-UPRZb9yvLvcYq2kYNfKkayKfAs81nmU6B03ugaMc'),
+    access_token_secret: nconf.get('ZgHoSs2rLJhEo6IkxI15KZTVrjAJOcqVwAunexLk4')
 });
 
 console.log('start the stream');
